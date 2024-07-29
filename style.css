@@ -1,0 +1,14 @@
+.backgroud{
+	
+	z-index: 1;
+}
+.header{
+	z-index: 2;
+}
+.table{
+	color:aliceblue;
+}
+.center{
+	margin: 10px auto 20px;
+	display: block;
+}
