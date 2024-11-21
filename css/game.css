@@ -1,0 +1,73 @@
+body{
+    background: rgb(7, 0, 79);
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    height:auto ;
+    width: 640px; ;
+}
+.center-text{
+	color:rgb(40, 40, 226);
+	font-size: 30px;
+	font-weight:bold;
+	padding-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid rgba(49, 36, 193, 0.762);
+	border-radius: 50px;
+	width: 300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+.line{
+    color: rgba(40, 40, 226, 0.473);;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100%;
+}
+.UID{
+    border: 3px solid rgba(49, 36, 193, 0.762);
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    color: rgb(40, 40, 226);
+    text-align: center;
+}
+.steamID{
+    border: 3px solid rgba(49, 36, 193, 0.762);
+    border-radius: 5px;
+    width: 550px;
+    height: auto;
+    color: rgb(40, 40, 226);
+    text-align: center;
+    
+}
+button{
+    background: rgba(49, 36, 193, 0.762);
+    border: none;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-left: 30px;
+    
+}
+button:active{
+    vertical-align: middle;
+    background-color:rgba(98, 87, 211, 0.762);
+    
+}
+.bs-friends{
+    color:black;
+    
+}
+.bs-friends-text{
+    color: black;
+    font-size: 20px;
+   font-weight: bold;
+}

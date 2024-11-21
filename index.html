@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Infomation about me</title>
+	<link rel="icon" href="img/icon.jpg" type="icon/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/button-styles.css">
+  <link rel="stylesheet" href="css/end.css"/>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <hr size="3px" color="blue" style="margin: 0;">
+  <div class="center-text"><h1>Обо мне</h1></div>
+	<div class="header" id="background">
+    
+    <h3 class="top" style="color: aliceblue;">
+      <img class="img" src="img/im.jpg" height="500">
+      <table border="5"  bordercolor="blue" class="table" >
+        <tr>
+          <td>Имя Фамилия</td>
+          <td>Венгер Марк</td>
+        </tr>
+        <tr>
+          <td>Дата рождения</td>
+          <td>02.07.2006</td>
+        </tr>
+        <tr>
+          <td>Возраст</td>
+          <td>18 лет</td>
+        </tr>
+        <tr>
+          <td>Образование</td>
+          <td>Полное среднее(с отличием)</td>
+        </tr>
+        <tr>
+          <td>Знание языков</td>
+          <td><ul>
+            <li>Русский-носитель(С2)</li>
+            <li>Украинский-носитель(С2)</li>
+            <li>Английский-В1</li>
+            <li>Чешский-А1</li>
+          </ul></td>
+    </h3>
+      </table>
+	</div>
+</div>
+  <hr size="3px" color="blue">
+<div>
+  <h1 class="center-text">Мои хобби</h1>
+  <div class="container">  
+    <button onclick="window.location.href='game.html';">Игры</button>
+    <button onclick="window.location.href='paint.html';">Рисование</button>
+    <button onclick="window.location.href='crochet.html';">Вязание</button>
+    <button onclick="window.location.href='music.html';">Музыка</button>
+  </div>
+</div>
+  
+	<!-- /div .wrapp END -->
+
+	<!-- script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+	<script>
+		VANTA.NET({
+  el: "#background",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x2a00ff,
+  maxDistance: 25.00,
+  points:15
+})
+	</script>
+<hr class="end"> 
+<h4 style="color: blue;"> Мои соцсети:<br><img src="img/tg icon.png" style="width: 23px;" align="center"><a href="https://t.me/Marki6_9">Telegram</a><br><img src="img/inst icon.png" style="width: 23px;" align="center"><a href="https://www.instagram.com/mark.venger934/">Instagram</a></h4>
+
+</body>
+
+</html>

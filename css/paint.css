@@ -1,0 +1,42 @@
+body{
+    background: rgb(7, 0, 79);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.center-text{
+	color:rgb(40, 40, 226);
+	font-size: 30px;
+	font-weight:bold;
+	padding-top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid rgba(49, 36, 193, 0.762);
+	border-radius: 50px;
+	width: 300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+
+
+.bs-friends{
+    color:black;
+    
+}
+.bs-friends-text{
+    color: black;
+    font-size: 20px;
+   font-weight: bold;
+}
+
+.text{
+    color: blue;
+    text-align: center;
+}

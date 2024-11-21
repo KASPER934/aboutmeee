@@ -1,0 +1,18 @@
+.end{
+    color: rgba(40, 40, 226, 0.473);;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.end_page{
+    position: bottom; 
+    width: 99%;
+}
+
+@media (max-width: 768px){
+    .end_page{
+        font-size: 20px;
+    }
+}
