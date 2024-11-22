@@ -71,3 +71,30 @@ button:active{
     font-size: 20px;
    font-weight: bold;
 }
+@media (max-width: 768px){
+    img{
+        height: auto;
+        width: 100vw;
+    }
+    body{
+       margin: 0;
+       
+    }
+    html{
+        margin: 0;
+    }
+    .UID{
+        max-width: 90vw;
+        display: flex;
+        margin: 0 auto;
+    }
+    .steamID{
+        max-width: 90vw;
+        display: flex;
+        margin: 0 auto;
+    }
+    .bs-friends{
+        display: flex;
+        margin: 0 auto;
+    }
+}
