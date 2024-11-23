@@ -19,6 +19,7 @@ html{
 body{
 	background: rgb(7, 0, 79);
 	width: 100%;
+	margin: 0;
 }
 .center-text{
 	color:rgb(40, 40, 226);
