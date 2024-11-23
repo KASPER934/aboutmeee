@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My drawings</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/paint.css" />
+    <link rel="stylesheet" href="css/end.css" />
+    <link rel="shortcut icon" href="/img/paint.ico" style="img/x-icon">
+    <link rel="icon" href="img/paint.ico" style="img/x-icon">
+  </head>
+  <body link="blue" vlink="blue">
+    <h1 class="center-text">Мои рисунки</h1>
+    <hr class="end">
+    <div class="container">
+      <div class="img-container">
+        <div class="img">
+            <img src="img/drowing1.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="img/drowing2.jpg" alt="">
+        </div>
+        <div class="img">
+          <img src="img/drowing3.jpg" alt="">
+        </div>
+          <div class="img">
+            <img src="img/drowing4.jpg" alt="">
+        </div>
+          <div class="img">
+            <img src="img/drowing5.jpg" alt="">
+        </div>
+          <div class="img">
+            <img src="img/drowing6.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing7.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing8.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing9.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing10.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing11.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing12.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing13.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing14.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing15.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing16.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing17.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing18.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing19.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/drowing20.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <hr class="end">
+      <h1 class="center-text"> Мои скетчи</h1>
+      <div class="container">
+        <div class="img-container">
+          <div class="img">
+            <img src="img/sketch1.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch2.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch3.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch4.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch5.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch6.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch7.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch8.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch9.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch10.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch11.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch12.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch13.jpg" alt="">
+          </div>
+          <div class="img">
+            <img src="img/sketch14.jpg" alt="">
+          </div>
+        </div>
+        <div class="pop-up">
+          <span>&times;</span>
+          <img src="" alt="">
+        </div>
+    </div>
+    
+<hr class="end"> 
+<h4 style="color: blue"> Мои соцсети:<br><img src="img/tg icon.png" style="width: 23px;" align="center"><a href="https://t.me/Marki6_9" >Telegram</a><br><img src="img/inst icon.png" style="width: 23px;" align="center"><a href="https://www.instagram.com/mark.venger934/">Instagram</a></h4>
+ 
+<script>
+  document.querySelectorAll('.img-container img').forEach(img =>{
+      img.onclick = () =>{
+          document.querySelector('.pop-up').style.display='block';
+          document.querySelector('.pop-up img').src = img.getAttribute('src');
+
+      }
+  });
+
+  document.querySelector('.pop-up span').onclick = () =>{
+      document.querySelector('.pop-up').style.display='none';
+  }
+
+</script>
+
+
+</body>
+</html>
